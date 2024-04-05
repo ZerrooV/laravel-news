@@ -7,16 +7,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Indeks</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{{ route('register') }}">Register</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../admin">berita</a>
+            <a class="nav-link active" aria-current="page" href="../admin"> Edit berita</a>
           </li>
         </ul>
       </div>

@@ -1,7 +1,7 @@
 @extends('admin.layout.app')
 @section( 'content')
 
-<div class="mt-5 text-end">
+<div class="mt-5">
     <a href="/index" class="btn btn-sm btn-warning">Back</a>
     <a href="{{route('posts.create')}}" class="btn btn-sm btn-warning">Add Post</a>
 </div>
@@ -34,5 +34,8 @@
 
 </div>
 @endforeach
+<div class="mt-5 text-end">
+    <a href="/logout" class="btn btn-sm btn-warning">Logout</a>
+</div>
 
 @endsection
